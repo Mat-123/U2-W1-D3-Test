@@ -4,21 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Document</title>
+    <title>Product Card</title>
   </head>
   <body>
-    <main class="mainCard">
-      <img src="./assets/imgs/honey.jpg" alt="Honey jar on a cutting board" />
-
-      <div class="flexProp">
-        <div class=".honeyInfo">
-          <h3>100% Bio Honey</h3>
-          <h4>Italian, not treated</h4>
-        </div>
-        <p>7$/kg</p>
+    <div class="container">
+      <div class="imageFlex">
+        <img src="./assets/imgs/honey.jpg" alt="Honey pot on a cutting board" width="100%" />
       </div>
-      <button>Add to cart</button>
-    </main>
+      <div class="textHorizontalAlign">
+        <div class="descriptionFlex">
+          <h1>100% Bio Honey</h1>
+          <p>Italian, not treated</p>
+        </div>
+        <div class="priceFlex">7$/kg</div>
+      </div>
+      <div class="buttonFlex"><button>Add to cart</button></div>
+    </div>
   </body>
 </html>

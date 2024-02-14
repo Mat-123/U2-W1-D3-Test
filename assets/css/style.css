@@ -1,27 +1,46 @@
 * {
   box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
 }
 
-* img {
-  max-width: 300px;
-  object-fit: contain;
-}
-
-.mainCard {
-  border-radius: 20px;
+.container {
+  max-width: 80%;
+  margin-inline: auto;
   display: flex;
   flex-direction: column;
-  margin: 1rem;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #fcf7e3;
+  color: #612406;
 }
 
-.honeyInfo {
-  display: flex;
+.imageFlex {
 }
 
-.flexProp {
+.descriptionFlex {
+}
+
+.priceFlex {
+}
+
+.textHorizontalAlign {
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  font-family: "Outfit", sans-serif;
+}
+
+.buttonFlex {
+  text-align: center;
 }
 
 button {
-  width: 150px;
+  border-radius: 20px;
+  margin-block: 10px;
+  padding-inline: 10px;
+  background-color: #f3df85;
+  color: #612406;
+  border: none;
 }
