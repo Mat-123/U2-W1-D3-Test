@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+* img {
+  max-width: 300px;
+  object-fit: contain;
+}
+
+.mainCard {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.honeyInfo {
+  display: flex;
+}
+
+.flexProp {
+  display: flex;
+}
+
+button {
+  width: 150px;
+}
